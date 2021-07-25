@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>حاسبة</title>
+</head>
+
+<body>
+    <h1>الحاسبة</h1>
+    <main>
+
+        <div>
+            <h2>الرقم الأول :</h2>
+            <input type="number" id="num1">
+            <br>
+            <h2>اختر العملية : </h2>
+            <div class="btns">
+                <button id="dharb">ضرب</button>
+                <button id="plus">جمع</button>
+                <button id="minus">طرح</button>
+                <button id="qisma">قسمة </button>
+            </div>
+            <span class="o">العملية : </span>
+            <span id="o">العملية</span>
+            <br>
+            <h2>الرقم الثاني :</h2>
+            <input type="number" id="num2">
+            <br>
+
+            <button id="submit">
+            حساب
+        </button>
+            <br>
+            <div style="background-color: #4d1515; padding:10px; color:#fff; font-weight:bold;">
+                <span style="font-size: 22px;">النتيجة هي : </span>
+                <span style="font-size: 22px;" id="printSubmit"></span>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    height: 65px;
+    background-color: #aaa;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 65px);
+}
+
+div {
+    width: 100%;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+input {
+    outline: none;
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #000;
+}
+
+button#submit {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin: 10px auto;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    background-color: darkgreen;
+    font-weight: bold;
+    color: white;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btns button {
+    border: 0;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(24, 36, 102);
+    color: white;
+    user-select: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.o {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#o {
+    text-align: center !important;
+    font-size: 30px;
+    display: block;
+    color: darkred;
+    font-weight: bold;
+}
